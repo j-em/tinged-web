@@ -1,24 +1,47 @@
 import React from "react";
-import logo from "./logo.svg";
-import styles from "./App.module.css";
+import styles from "./App.module.scss";
+import screenshot from "./screenshot.png";
+
+import {
+  FaMusic,
+  FaReact,
+  FaApple,
+  FaWindows,
+  FaRainbow
+} from "react-icons/fa";
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className={styles.App}>
+      <h1>Tinged.</h1>
+
+      <p>A media player with a modern and beautiful interface</p>
+
+      <ul className={styles.List}>
+        <li>
+          <FaMusic /> Enjoy your favorite hits
+        </li>
+        <li>
+          <FaRainbow /> Using an neat and clutter-free UI
+        </li>
+        <li>
+          <FaApple />
+           <FaWindows /> On any platforms
+        </li>
+
+        <li>
+          <FaReact /> Built with React and TypeScript
+        </li>
+      </ul>
+
+      <section className={styles.ButtonGroup}>
+        <a className={styles.Button}>
+          <FaApple />
         </a>
-      </header>
+        <a className={styles.Button}>
+          <FaWindows />
+        </a>
+      </section>
     </div>
   );
 };
