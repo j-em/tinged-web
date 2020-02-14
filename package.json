@@ -14,8 +14,10 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-hot-loader": "^4.12.19",
+    "react-icons": "^3.9.0",
     "react-scripts": "3.3.1",
     "styled-components": "^5.0.1",
+    "typeface-aileron": "0.0.66",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -41,6 +43,7 @@
   },
   "devDependencies": {
     "@types/react-hot-loader": "^4.1.1",
+    "@types/react-icons": "^3.0.0",
     "@types/styled-components": "^4.4.2",
     "typescript-plugin-css-modules": "^2.1.2"
   }
