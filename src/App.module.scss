@@ -1,0 +1,67 @@
+@import "../node_modules/typeface-aileron/index.css";
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: white;
+  font-family: Aileron;
+  font-weight: 600;
+  font-size: 1em;
+  background: linear-gradient(#000000e7, #000000e7),
+    url("screenshot.png") no-repeat center/80%;
+
+  h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 2rem 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    padding: 1em;
+    margin: 0;
+  }
+}
+
+.List {
+  list-style-type: none;
+  padding: 2em;
+  font-weight: 800;
+  margin: 0;
+  align-self: flex-start;
+  border-radius: 5px;
+
+  li {
+    margin-bottom: 0.7rem;
+    font-size: 1.2rem;
+  }
+}
+
+.ButtonGroup {
+  margin-top: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  > .Button {
+    margin-left: 5px;
+  }
+}
+
+.Button {
+  $main-color: rgb(88, 88, 173);
+  padding: 1em 3em;
+  color: white;
+  font-family: inherit;
+  border: 2px solid adjust-color($color: $main-color, $lightness: 1);
+  background-color: $main-color;
+  border-radius: 2px;
+  outline: 0;
+  font-size: 1em;
+
+  &:hover {
+    transform: scale(1.01);
+  }
+}
