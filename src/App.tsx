@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className={styles.App}>
       <h1 className={styles.Heading}>Tinged.</h1>
-      <p className={styles.Text}>A modern and intuitive media player</p>
+      <p className={styles.Text}>A sleek and intuitive media player</p>
       <ul className={styles.List}>
         <li>
           <FaMusic /> Enjoy your favorite hits
