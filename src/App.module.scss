@@ -14,6 +14,9 @@ $black: rgb(83, 83, 83);
 
   grid-template-columns: 1fr;
 
+  align-items: center;
+  grid-gap: 1rem 0;
+
   @media (min-width: 700px) {
     padding: 4rem;
     grid-template-columns: 1fr 1fr;
@@ -23,7 +26,7 @@ $black: rgb(83, 83, 83);
 
 .Text {
   font-size: 1.5rem;
-  padding: 1em;
+  padding: 0 1em;
   margin: 0;
 }
 
@@ -44,12 +47,12 @@ $black: rgb(83, 83, 83);
 .Heading {
   font-size: 4em;
   margin: 0;
-  padding: 2rem 1rem;
+  padding: 0 1rem;
 }
 
 .List {
   list-style-type: none;
-  padding: 2em;
+  padding: 0 2em;
 
   margin: 0;
   align-self: flex-start;
