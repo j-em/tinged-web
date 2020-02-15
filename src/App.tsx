@@ -7,39 +7,43 @@ import {
   FaReact,
   FaApple,
   FaWindows,
-  FaRainbow
+  FaRainbow,
+  FaNodeJs
 } from "react-icons/fa";
+
+import { IoLogoJavascript } from "react-icons/io";
 
 const App = () => {
   return (
     <div className={styles.App}>
-      <h1>Tinged.</h1>
-
-      <p>A media player with a modern and beautiful interface</p>
-
+      <h1 className={styles.Heading}>Tinged.</h1>
+      <p className={styles.Text}>A modern and intuitive media player</p>
       <ul className={styles.List}>
         <li>
           <FaMusic /> Enjoy your favorite hits
         </li>
         <li>
-          <FaRainbow /> Using an neat and clutter-free UI
+          <FaRainbow /> Using a neat and clutter-free UI
         </li>
         <li>
           <FaApple />
-           <FaWindows /> On any platforms
+           <FaWindows /> On your favorite platform
         </li>
 
         <li>
-          <FaReact /> Built with React and TypeScript
+          <FaReact /> <FaNodeJs /> Built with Electron, React and TypeScript
         </li>
       </ul>
+      <section className={styles.Img}>
+        <img src={screenshot} alt="screenshot" />
+      </section>
 
       <section className={styles.ButtonGroup}>
         <a className={styles.Button}>
           <FaApple />
         </a>
         <a className={styles.Button}>
-          <FaWindows />
+          <FaWindows fontSize={"inherit"} />
         </a>
       </section>
     </div>
