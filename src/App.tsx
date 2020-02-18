@@ -1,17 +1,15 @@
 import React from "react";
-import styles from "./App.module.scss";
-import screenshot from "./screenshot.png";
-
 import {
-  FaMusic,
-  FaReact,
   FaApple,
-  FaWindows,
+  FaMusic,
+  FaNodeJs,
   FaRainbow,
-  FaNodeJs
+  FaReact,
+  FaWindows
 } from "react-icons/fa";
 
-import { IoLogoJavascript } from "react-icons/io";
+import styles from "./App.module.scss";
+import screenshot from "./screenshot.png";
 
 const App = () => {
   return (
@@ -39,10 +37,20 @@ const App = () => {
       </section>
 
       <section className={styles.ButtonGroup}>
-        <a className={styles.Button} href={"https://github.com/j-em/tinged/releases/download/v0.1.0/tinged-darwin-x64-0.1.0.zip"}>
+        <a
+          className={styles.Button}
+          href={
+            "https://github.com/j-em/tinged/releases/download/v0.1.1/tinged-darwin-x64-0.1.1.zip"
+          }
+        >
           <FaApple />
         </a>
-        <a className={styles.Button} href={"https://github.com/j-em/tinged/releases/download/v0.1.0/tinged-0.1.0.Setup.exe"}>
+        <a
+          className={styles.Button}
+          href={
+            "https://github.com/j-em/tinged/releases/download/v0.1.1/tinged-win32-x64-0.1.1.zip"
+          }
+        >
           <FaWindows fontSize={"inherit"} />
         </a>
       </section>
