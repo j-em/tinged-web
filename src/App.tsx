@@ -39,10 +39,10 @@ const App = () => {
       </section>
 
       <section className={styles.ButtonGroup}>
-        <a className={styles.Button}>
+        <a className={styles.Button} href={"https://github.com/j-em/tinged/releases/download/v0.1.0/tinged-darwin-x64-0.1.0.zip"}>
           <FaApple />
         </a>
-        <a className={styles.Button}>
+        <a className={styles.Button} href={"https://github.com/j-em/tinged/releases/download/v0.1.0/tinged-0.1.0.Setup.exe"}>
           <FaWindows fontSize={"inherit"} />
         </a>
       </section>
