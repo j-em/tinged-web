@@ -40,15 +40,15 @@ const App = () => {
         <a
           className={styles.Button}
           href={
-            "https://github.com/j-em/tinged/releases/download/v0.2.0/tinged-darwin-x64-0.2.0.zip"
+            "https://github.com/j-em/tinged/releases/download/v0.2.1/tinged-darwin-x64-0.2.1.zip"
           }
         >
           <FaApple />
         </a>
-        <a
+        <a  
           className={styles.Button}
           href={
-            "https://github.com/j-em/tinged/releases/download/v0.2.0/tinged-win32-x64-0.2.0.zip"
+            "https://github.com/j-em/tinged/releases/download/v0.2.1/Tinged-0.2.1.Setup.exe"
           }
         >
           <FaWindows fontSize={"inherit"} />
